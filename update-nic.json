@@ -18,7 +18,7 @@
         "type": "array"
     },
     "FortinetTags": {
-      "type": "object"
+      "type": "string"
     },
     "NSGName": {
         "type": "string"
