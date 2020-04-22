@@ -15,7 +15,7 @@
       "type": "string"
     },
     "FortinetTags": {
-      "type": "object"
+      "type": "string"
     },
     "NSGName": {
         "type": "string"
@@ -32,7 +32,7 @@
       "dependsOn": [
       ],
       "tags": {
-        "provider": "[toUpper(parameters('FortinetTags').provider)]"
+        "Cost Center": "[parameters('FortinetTags')]"
       },
       "type": "Microsoft.Network/networkInterfaces",
       "name": "[parameters('nicName')]",
