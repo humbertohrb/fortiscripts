@@ -35,7 +35,7 @@
       "dependsOn": [
       ],
       "tags": {
-        "provider": "[toUpper(parameters('FortinetTags').provider)]"
+        "Cost Center": "[parameters('FortinetTags')]"
       },
       "type": "Microsoft.Network/networkInterfaces",
       "name": "[parameters('nicName')]",
